@@ -7,17 +7,22 @@ Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
 Open the file f1 in read mode.
-
 ### Step 2:
 Open the file f2 in append mode.
-
 ### Step 3:
 Copy the contents using write() with the for loop.
-
 ### Step 4:
 End the program.
-
-## PROGRAM:
+## PROGRAM
+```
+DEVELOPED BY: DEEPAK RAJ S
+REG NO: 212222240023s
+with open('F!.txt','r') as f1:
+    with open ('F2.txt','a') as f2:
+        for line in f1:
+            f2.write(line)
+```
+## INPUT
 ![image](https://github.com/DEEPAK2200233/copy-file/assets/118707676/a3f394d0-3335-42dd-86a7-338bda6aa775)
 
 ![image](https://github.com/DEEPAK2200233/copy-file/assets/118707676/492360fd-ad5c-4b9f-b550-65c82a5a4957)
